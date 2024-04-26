@@ -1,0 +1,19 @@
+.main-home-div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60px 350px 1fr;
+    gap: 4px;
+    position: relative;
+    /* display: grid; */
+}
+
+@media only screen and (max-width: 767px) {
+
+    .main-home-div{
+        width: 100%;
+        display: block;
+        gap: 4px;
+        position: relative;
+        /* display: grid; */
+    }
+}

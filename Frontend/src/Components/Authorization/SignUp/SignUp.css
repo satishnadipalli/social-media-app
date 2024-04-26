@@ -1,0 +1,35 @@
+.login-main-div{
+    width: 380px;
+    height: 470px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding-bottom: 20px;
+    
+}
+.signin-labels{
+    font-weight: 500;
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    display: block;
+    padding-left: 7px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.signup-button{
+    margin-top: 30px;
+}
+
+.signin-inputs{
+    border: 2px solid gray;
+}
+
+form{
+    height: 100%;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}

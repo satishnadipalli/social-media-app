@@ -1,0 +1,41 @@
+.searchUsers{
+    width: 0px;
+    transition: width 0.5s linear; 
+
+    box-sizing: border-box;
+}
+
+.notSearchUsers{
+    width: 350px;
+    height: 100vh;
+    background-color: rgb(222, 222, 222);
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.search-for-user{
+    width: 80%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.search-button{
+    background-color: rgb(131, 131, 218);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: black;
+}
+
+.matching-users{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+

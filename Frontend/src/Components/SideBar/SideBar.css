@@ -1,0 +1,39 @@
+.main-nav-div{
+    height: 100vh;
+    width:  70px;
+    position: relative;
+}
+.inner-main-div{
+    width: 70px;
+    position: fixed;
+}
+
+.icons-div{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-nav-div{
+        height: 70px;
+        width: 100%;
+        display: block;
+    }
+    .inner-main-div{
+        width: 70px;
+        width: 100%;
+        position: fixed;
+        display: flex;
+    }
+    
+    .icons-div{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
