@@ -1,9 +1,9 @@
 import {createSlice} from "@reduxjs/toolkit"
-
+// This slice will make sure the message that send by both client and client 2 are effectively handled with conflict with other s ndinhs
 const initialState = {
     userCredentials : JSON.parse(localStorage.getItem("userCredentials")) || null,
     currentChat : null,
-    UserMessages:null
+    UserMessages:null 
 }
 const messageSlice = createSlice({
     name : "messages",
